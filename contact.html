@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="contact.css">
+	<title>Contact</title>
+    <script src="func.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- Header section -->
+	<header>
+		<button class="hamburger" id="hamburger-icon">
+			<span onclick="openNavbar()"> ☰</span>
+		</button>
+		<div class="logo"><a href="home.html"><img src="home.png" id = "home" width = 60px></a></div>
+		<nav id="nav-menu">
+			<ul>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+        <button class="reachUs-button"><a href="tel:3413562182" id="call">Call me</a></button>
+	</header>
+
+	<!-- banner section -->
+	<section class="banner">
+		<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
+			alt="Welcome to our Contact Us page">
+		<h1>Get in Touch With Me</h1>
+		<p>Need more info about my projects or just want to connect?</p>
+	</section>
+
+	<!-- Contact form -->
+	<section class="contact-form">
+		<div class="form-container">
+			<h2>Your Details</h2>
+			<form action="#" method="POST">
+
+				<label for="name">Name: </label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email: </label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="phone">Phone: </label>
+				<input type="tel" id="phone" name="phone">
+
+				<label for="message">Message: </label>
+				<textarea id="message" name="message" rows="4" required></textarea>
+
+				<button type="submit" class="submit-button">Submit</button>
+			</form>
+		</div>
+	</section>
+
+	<!-- Company contact info -->
+	<section class="contact-info">
+		<h2>Contact Information</h2>
+		<address>
+			Ishita Samadhiya<br>
+			123 My House<br>
+			San Jose, CA 95124<br>
+			Phone: <a href="tel:3413562182">341-356-2182</a><br>
+			Email: <a href="i.samadhiya@my.metroed.net">i.samadhiya@my.metroed.net</a>
+		</address>
+	</section>
+
+	<footer>
+		<p>© 2023 Ishita Samadhiya. All rights reserved.</p>
+	</footer>
+	<script src="func.js"></script>
+</body>
+
+</html>
