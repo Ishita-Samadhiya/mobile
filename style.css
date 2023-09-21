@@ -85,18 +85,18 @@ h1{
     margin: 200px auto;
     position: relative;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	.logo {
 		display: inline-block;
 	}
 	nav ul{
 		justify-content: space-evenly;
 	}
-	.me{
-		height: 25vh;
-		width: 79vw;
-		position: relative;
+	#me{
+		width: 80vw;
+		margin: 58px auto;
 	}
+	
 	footer {
 		padding: 20px;
 		text-align: center;
